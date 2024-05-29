@@ -1,0 +1,81 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    display: flex;
+}
+.second > div:first-child{
+    margin-right: 10px;
+}
+
+.boxx{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.boxwrap{
+    display: flex;
+    flex-direction: column;
+}
+.box2 {
+    align-self: center; /*align-items은 전체를 움직이는 반면 align-self 는 각각 요소 하나를 움직임*/
+  }
+.box3 {
+    align-self: flex-end;
+  }
+
+.boxxx{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.big_box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+.small_box{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.halfbox{
+    position: relative;
+    left:50px;
+    bottom:50px;
+}
+
+.bigwrap{
+    width: 450px;
+    height: 170px;
+    position: relative;
+}
+.rightt{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.leftbt{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
